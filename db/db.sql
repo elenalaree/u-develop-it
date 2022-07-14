@@ -1,4 +1,6 @@
 DROP DATABASE IF EXISTS election;
+DROP TABLE IF EXISTS candidates;
+DROP TABLE IF EXISTS parties;
 
 CREATE DATABASE election;
 USE election;
